@@ -1,0 +1,23 @@
+body{
+    background-color: #000000;
+}
+.main-wrapper{
+    width: 1080px;
+    height: 1920px;
+    margin: 0 auto;
+    background: url("../img/bg.jpg") no-repeat center ;
+    background-size: cover;
+}
+.placeholder{
+    width: 100%;
+    height: 91px;
+}
+iframe{
+    height:878px;
+    width:907px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 8px;
+    border: none;
+}
