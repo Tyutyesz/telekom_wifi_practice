@@ -1,6 +1,41 @@
+@font-face {
+    font-family: "TeleCom Grotesk";
+    src: url("assets/fonts/TcomGrotesk-Regular.otf");
+    src: url("assets/fonts/TcomGrotesk-Regular.eot");
+    src: url("assets/fonts/TcomGrotesk-Regular.eot#iefix") format("embedded-opentype"),
+    url("assets/fonts/TcomGrotesk-Regular.ttf") format("truetype"),
+    url("assets/fonts/TcomGrotesk-Regular.svg#Name") format("svg");
+}
+
+@font-face {
+    font-family: "assets/fonts/TeleCom Grotesk Bold";
+    src: url("assets/fonts/TcomGrotesk-Bold.otf");
+    src: url("assets/fonts/TcomGrotesk-Bold.eot");
+    src: url("assets/fonts/TcomGrotesk-Bold.eot#iefix") format("embedded-opentype"),
+    url("assets/fonts/TcomGrotesk-Bold.ttf") format("truetype"),
+    url("assets/fonts/TcomGrotesk-Bold.svg#Name") format("svg");
+}
+
 body{
     background-color: #000000;
+    color: #ffffff;
+    font-family: "TeleCom Grotesk", Arial;
+    font-size: 35px;
 }
+strong{
+    font-family: "TeleCom Grotesk Bold", Arial;
+}
+
+iframe{
+    height:878px;
+    width:907px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 8px;
+    border: none;
+}
+
 .main-wrapper{
     width: 1080px;
     height: 1920px;
@@ -11,13 +46,4 @@ body{
 .placeholder{
     width: 100%;
     height: 91px;
-}
-iframe{
-    height:878px;
-    width:907px;
-    display: block;
-    margin: 0 auto;
-    background-color: rgba(0,0,0,0.4);
-    border-radius: 8px;
-    border: none;
 }
