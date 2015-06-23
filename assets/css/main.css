@@ -1,19 +1,19 @@
 @font-face {
     font-family: "TeleCom Grotesk";
-    src: url("assets/fonts/TcomGrotesk-Regular.otf");
-    src: url("assets/fonts/TcomGrotesk-Regular.eot");
-    src: url("assets/fonts/TcomGrotesk-Regular.eot#iefix") format("embedded-opentype"),
-    url("assets/fonts/TcomGrotesk-Regular.ttf") format("truetype"),
-    url("assets/fonts/TcomGrotesk-Regular.svg#Name") format("svg");
+    src: url("../fonts/TcomGrotesk-Regular.otf");
+    src: url("../fonts/TcomGrotesk-Regular.eot");
+    src: url("../fonts/TcomGrotesk-Regular.eot#iefix") format("embedded-opentype"),
+    url("../fonts/TcomGrotesk-Regular.ttf") format("truetype"),
+    url("../fonts/TcomGrotesk-Regular.svg#Name") format("svg");
 }
 
 @font-face {
-    font-family: "assets/fonts/TeleCom Grotesk Bold";
-    src: url("assets/fonts/TcomGrotesk-Bold.otf");
-    src: url("assets/fonts/TcomGrotesk-Bold.eot");
-    src: url("assets/fonts/TcomGrotesk-Bold.eot#iefix") format("embedded-opentype"),
-    url("assets/fonts/TcomGrotesk-Bold.ttf") format("truetype"),
-    url("assets/fonts/TcomGrotesk-Bold.svg#Name") format("svg");
+    font-family: "TeleCom Grotesk Bold";
+    src: url("../fonts/TcomGrotesk-Bold.otf");
+    src: url("../fonts/TcomGrotesk-Bold.eot");
+    src: url("../fonts/TcomGrotesk-Bold.eot#iefix") format("embedded-opentype"),
+    url("../fonts/TcomGrotesk-Bold.ttf") format("truetype"),
+    url("../fonts/TcomGrotesk-Bold.svg#Name") format("svg");
 }
 
 body{
@@ -22,18 +22,56 @@ body{
     font-family: "TeleCom Grotesk", Arial;
     font-size: 35px;
 }
-strong{
+strong, .headline{
     font-family: "TeleCom Grotesk Bold", Arial;
 }
 
 iframe{
-    height:878px;
-    width:907px;
+    height:875px;
+    width:908px;
     display: block;
-    margin: 0 auto;
+    margin: 0 88px;
     background-color: rgba(0,0,0,0.4);
     border-radius: 8px;
     border: none;
+}
+
+.iframe-container::-webkit-scrollbar {
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    width: 13px;
+}
+.iframe-container::-webkit-scrollbar-thumb {
+    background-color: #668bb9;
+    scrollbar-face-color: #668bb9;
+    border-radius: 10px;
+    width: 20px;
+}
+
+button{
+    background-color: #ffffff;
+    border-radius: 7px;
+    border-top: none;
+    border-left: 1px solid #d0d1dc;
+    border-bottom: 2px solid #9c9c9c;
+    border-right: 2px solid #9c9c9c;
+    width: 426px;
+    height: 108px;
+    outline: none;
+    background-color: #f4f5f5; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c4c4c4));
+    background-image: -webkit-linear-gradient(top, #ffffff, #c4c4c4);
+    background-image: -moz-linear-gradient(top, #ffffff, #c4c4c4);
+    background-image: -ms-linear-gradient(top, #ffffff, #c4c4c4);
+    background-image: -o-linear-gradient(top, #ffffff, #c4c4c4);
+    background-image: linear-gradient(to bottom, #ffffff, #c4c4c4);
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#c4c4c4);
+    color: #e20054;
+    font-family: "TeleCom Grotesk Bold", Arial;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 19px;
+    margin-top: 69px;
+    padding-left: 17px;
 }
 
 .main-wrapper{
@@ -46,4 +84,54 @@ iframe{
 .placeholder{
     width: 100%;
     height: 91px;
+}
+.slogen{
+    width: 924px;
+    height: 252px;
+    background: url("../img/slogen.png") no-repeat center;
+    background-size: cover;
+    margin: 89px auto 0;
+}
+.footer-line{
+    width: 837px;
+    margin-left: 84px;
+    margin-top: 103px;
+    line-height: 40px;
+}
+.tlogo{
+    width: 902px;
+    height: 85px;
+    background: url("../img/tlogo.png") no-repeat center;
+    background-size: cover;
+    margin-top:83px;
+    margin-left: 86px;
+}
+.iframe-container{
+    width: 811px;
+    height: 799px;
+    overflow-y: scroll;
+    margin: 40px 59px 0;
+}
+.iframe-container p{
+    letter-spacing: -0.003em;
+    line-height: 39px;
+}
+.text-container{
+    width: 760px;
+}
+.text-container .headline{
+    letter-spacing: -0.003em;
+    line-height: 39px;
+}
+#left{
+    margin-left: 88px;
+}
+#right{
+    margin-left: 49px;
+}
+#iframe-body{
+    background-color: rgba(0,0,0,0.2);
+}
+@media screen and (max-width: 1080px){
+
 }
