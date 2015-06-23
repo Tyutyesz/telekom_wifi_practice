@@ -133,5 +133,59 @@ button{
     background-color: rgba(0,0,0,0.2);
 }
 @media screen and (max-width: 1080px){
+    body{
+        font-size: 22px;
+    }
+    iframe{
+        width: 84%;
+        margin-left: 8%;
+    }
+    button{
+        width: 38%;
+        height: 78px;
+        font-size: 30px;
+    }
+    .main-wrapper{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+    .iframe-container{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .text-container{
+        width: 98%;
+    }
+    .text-container .headline{
+        line-height: 23px;
+    }
+    .iframe-container p{
+        letter-spacing: -0.003em;
+        line-height: 24px;
+    }
+    .slogen{
 
+    }
+    .slogen, .footer-line{
+        width: 84%;
+        margin-left: 8%;
+        background-size: contain;
+        margin-top: 0;
+    }
+    .footer-line{
+        line-height: 20px;
+    }
+    .tlogo{
+        width: 84%;
+        background-size: contain;
+        margin-left: 8%;
+        margin-top: inherit;
+    }
+    #left{
+        margin-left: 8%;
+    }
+    #right{
+        margin-left: 7%;
+    }
 }
